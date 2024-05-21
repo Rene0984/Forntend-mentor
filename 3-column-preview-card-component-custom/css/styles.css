@@ -1,0 +1,155 @@
+body {
+    font-size: 15px
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.card-1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 20px 0 0 20px;
+    align-items: center;
+    max-width: 150px;
+    max-height: 180px;
+}
+
+.card-1:hover {
+    max-width: 300px;
+    max-height: 800px;
+    .button-sedans {
+        visibility: visible;
+    }
+}
+
+
+.card-2 {
+    background-color: hsl(184, 100%, 22%);
+    max-width: 150px;
+    max-height: 180px;
+    
+}
+
+
+.card-2:hover {
+    max-width: 300px;
+    max-height: 800px;
+    .button-suvs {
+        visibility: visible;
+    }
+}
+
+
+.card-3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 20px 20px 0;
+    max-width: 150px;
+    max-height: 180px;
+}
+
+.card-3:hover {
+    max-width: 300px;
+    max-height: 800px;
+    .button-lux {
+        visibility: visible;
+    }
+}
+
+.title-desc {
+    color: hsl(0, 0%, 95%);
+    text-align: left;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    margin: 45px ;
+    text-transform: uppercase;
+    margin-top: -5px;
+    font-size: 2rem;
+}
+.descrption {
+    text-align: left;
+    line-height: 1.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend;
+    font-weight: 400;
+    margin: 45px;
+    margin-top: -5px;
+}
+
+.img {
+    margin: 30px;
+    margin-top: 3rem;
+}
+
+button {
+    margin: 30px;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    min-width: 12rem;
+    visibility: hidden;
+}
+
+.button-sedans {
+    color: hsl(31, 77%, 52%);
+    border-color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(0, 0%, 95%);
+}
+
+.button-suvs {
+    color: hsl(184, 100%, 22%);
+    border-color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(0, 0%, 95%);
+}
+
+.button-lux {
+    color:  hsl(179, 100%, 13%);
+    border-color:hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(0, 0%, 95%);
+}
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    bottom: 0;
+    position: sticky;
+}
+
+.button-sedans:hover {
+    background-color:  hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button-suvs:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button-lux:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+@media (max-width: 440px) {
+    .card {
+        flex-direction: column;
+    }
+    .card-1 {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .card-3 {
+        border-radius: 0 0 20px 20px;
+    }
+    .attribution {
+        display: none;
+    }
+}

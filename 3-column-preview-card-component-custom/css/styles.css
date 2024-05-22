@@ -1,5 +1,5 @@
 body {
-    font-size: 15px
+    font-size: 15px;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -9,57 +9,27 @@ body {
 .card {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    
+    margin: auto;
+    height: 30rem;
+    max-width: 50rem;
 }
 
 .card-1 {
     background-color: hsl(31, 77%, 52%);
     border-radius: 20px 0 0 20px;
     align-items: center;
-    max-width: 150px;
-    max-height: 180px;
-}
-
-.card-1:hover {
     max-width: 300px;
-    max-height: 800px;
-    .button-sedans {
-        visibility: visible;
-    }
 }
-
 
 .card-2 {
     background-color: hsl(184, 100%, 22%);
-    max-width: 150px;
-    max-height: 180px;
-    
-}
-
-
-.card-2:hover {
     max-width: 300px;
-    max-height: 800px;
-    .button-suvs {
-        visibility: visible;
-    }
 }
-
 
 .card-3 {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 20px 20px 0;
-    max-width: 150px;
-    max-height: 180px;
-}
-
-.card-3:hover {
     max-width: 300px;
-    max-height: 800px;
-    .button-lux {
-        visibility: visible;
-    }
 }
 
 .title-desc {
@@ -93,7 +63,6 @@ button {
     height: 2.5rem;
     border-radius: 20px;
     min-width: 12rem;
-    visibility: hidden;
 }
 
 .button-sedans {
@@ -115,16 +84,6 @@ button {
 }
 
 
-.attribution { 
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%);
-    bottom: 0;
-    position: sticky;
-}
 
 .button-sedans:hover {
     background-color:  hsl(31, 77%, 52%);
@@ -142,7 +101,7 @@ button {
 }
 
 
-@media (max-width: 440px) {
+@media (max-width: 375px) {
     .card {
         flex-direction: column;
     }
@@ -153,7 +112,5 @@ button {
     .card-3 {
         border-radius: 0 0 20px 20px;
     }
-    .attribution {
-        display: none;
-    }
+    
 }

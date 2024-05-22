@@ -1,5 +1,9 @@
 body {
-    font-size: 15px
+    font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -80,17 +84,6 @@ button {
 }
 
 
-.attribution { 
-    font-size: 11px;
-    text-align: center; 
-    
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%);
-    bottom: 0;
-    position: sticky;
-}
 
 .button-sedans:hover {
     background-color:  hsl(31, 77%, 52%);

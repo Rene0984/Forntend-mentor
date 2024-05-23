@@ -1,0 +1,78 @@
+@use "components";
+
+body {
+    font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: components.$offBlack;
+    font-family: inter;
+    font-size: 14px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: components.$darkGrey;
+    margin-bottom: 5rem;
+    width: 25rem;
+    border-radius: 15px;
+}
+
+.card-img-top {
+    border-radius: 50%;
+    width: 8rem;
+    margin-top: 4rem;
+    align-self: center;
+}
+
+
+
+.card-title {
+    color: components.$white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.card-text-1 {
+    color: components.$green;
+    text-align: center;
+    font-weight: 600;
+    margin-top: -2rem;
+}
+
+.card-text-2 {
+    color: components.$white;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: -0.2rem;
+}
+
+
+
+.btn {
+    margin-top: 1rem;
+    width: 20rem;
+    background-color: components.$grey;
+    color: white;
+    font-weight: 700;
+    height: 3rem;
+    border-radius: 10px;
+    border-bottom: none;
+}
+
+.btn:hover {
+    background-color: components.$green;
+    color: components.$darkGrey;
+}
+
+ul {
+    list-style: none;
+}
+

@@ -1,19 +1,32 @@
 body {
-    background-image: url(./img/Circuit\ Primary.svg);
+    
 }
 
 .title {
-    color: white;
-    text-align: center;
+    color: #020300;
+    text-align: left;
+    margin-top: ;
 }
 
 .subtitle {
-    color: white;
+    color: #020300;
     text-align: center;
     margin-top: 5rem;
 }
 
+img {
+    display: flex;
+    margin: auto;
+    max-width: 60%;
+}
 
+.dropdown{
+    
+}
+
+.nav-link {
+    color: #36311f;
+}
 
 .cards {
     display: flex;
@@ -26,15 +39,15 @@ body {
 }
 
 .cards .red {
-    background-color: #f43f5e;
+    background-color: #79a9d1;
 }
 
 .cards .blue {
-    background-color: #3b82f6;
+    background-color: #7d8ca3;
 }
 
 .cards .green {
-    background-color: #22c55e;
+    background-color: #59544b;
 }
 
 .cards .card {
